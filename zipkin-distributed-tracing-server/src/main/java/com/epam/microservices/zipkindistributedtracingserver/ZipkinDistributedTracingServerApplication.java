@@ -1,16 +1,18 @@
-package com.epam.microservices.limitsservice;
+package com.epam.microservices.zipkindistributedtracingserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+
+import zipkin.server.EnableZipkinServer;
 
 @SpringBootApplication
+@EnableZipkinServer
 @EnableDiscoveryClient
-@EnableHystrix
-public class LimitsServiceApplication {
+public class ZipkinDistributedTracingServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LimitsServiceApplication.class, args);
+		SpringApplication.run(ZipkinDistributedTracingServerApplication.class,
+				args);
 	}
 }
