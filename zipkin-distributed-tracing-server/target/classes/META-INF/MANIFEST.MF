@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: zipkin-server
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Krishna
+Implementation-Vendor-Id: com.epam.microservices
+Build-Jdk: 1.8.0_45
+Implementation-URL: http://projects.spring.io/spring-boot/zipkin-distr
+ ibuted-tracing-server/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
